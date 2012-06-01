@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #OS junk files
 [Tt]humbs.db
 *.DS_Store
@@ -58,3 +59,11 @@ packages/
 
 # visual studio database projects
 *.dbmdl
+=======
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+# mstest test results
+TestResults
+>>>>>>> f8bd05857a1a009a0ec2bfa574fa883ee81dbfe4
