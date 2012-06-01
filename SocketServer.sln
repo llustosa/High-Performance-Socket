@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{BF74A28C-80A3-4D8C-9C73-74538E55347E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer.Test", "SocketServer.Test\SocketServer.Test.csproj", "{40988251-746F-47D6-B26F-D5BDA69E3F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FA6184C-F664-46C5-B763-9DC658427960}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SocketServer.vsmdi = SocketServer.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SocketServer.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF74A28C-80A3-4D8C-9C73-74538E55347E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF74A28C-80A3-4D8C-9C73-74538E55347E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF74A28C-80A3-4D8C-9C73-74538E55347E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF74A28C-80A3-4D8C-9C73-74538E55347E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40988251-746F-47D6-B26F-D5BDA69E3F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40988251-746F-47D6-B26F-D5BDA69E3F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40988251-746F-47D6-B26F-D5BDA69E3F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40988251-746F-47D6-B26F-D5BDA69E3F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
